@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "item1 item2 item2 item3 item4"
+                        "item5 item6 item7 item3 item4"
+                        "item8 item8 item8 item8 item4"
+                        "item9 item9 item10 item11 item4"  
+                        "item9 item9 item12 item13 item4"
+}
+
+.div1{
+    background-color: rgb(43, 151, 43);
+    grid-area: item1;
+}
+
+.div2{
+    background-color: rgb(128, 236, 128);
+    grid-area: item2;
+}
+
+.div3{
+    background-color: rgb(149, 149, 248);
+    grid-area: item3;
+}
+
+.div4{
+    background-color: rgb(212, 72, 212);
+    grid-area: item4;
+}
+
+.div5{
+    background-color: greenyellow;
+    grid-area: item5;
+}
+
+.div6{
+    background-color: cyan;
+    grid-area: item6;
+}
+
+.div7{
+    background-color: rgb(255, 115, 0);
+    grid-area: item7;
+}
+
+.div8{
+    background-color: rgb(187, 141, 141);
+    grid-area: item8;
+}
+
+.div9{
+    background-color: rgb(128, 72, 128);
+    grid-area: item9;
+}
+
+.div10{
+    background-color: black;
+    grid-area: item10;
+}
+
+.div11{
+    background-color: rgb(177, 0, 177);
+    grid-area: item11;
+}
+
+.div12{
+    background-color: rgb(185, 0, 0);
+    grid-area: item12;
+}
+
+.div13{
+    background-color: rgb(155, 155, 255);
+    grid-area: item13;
+}
+
+div :hover {
+    transform: scale(.95);
+}
+
+div {
+    border: 2px dotted black;
+}
